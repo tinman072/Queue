@@ -1,0 +1,9 @@
+C:\Users\mastermind\Desktop\WorkSpace\Queue\Queue\bin\Debug\Queue.exe.config
+C:\Users\mastermind\Desktop\WorkSpace\Queue\Queue\bin\Debug\Queue.exe
+C:\Users\mastermind\Desktop\WorkSpace\Queue\Queue\bin\Debug\Queue.pdb
+C:\Users\mastermind\Desktop\WorkSpace\Queue\Queue\bin\Debug\Queue.xml
+C:\Users\mastermind\Desktop\WorkSpace\Queue\Queue\obj\Debug\Queue.Resources.resources
+C:\Users\mastermind\Desktop\WorkSpace\Queue\Queue\obj\Debug\Queue.vbproj.GenerateResource.Cache
+C:\Users\mastermind\Desktop\WorkSpace\Queue\Queue\obj\Debug\Queue.exe
+C:\Users\mastermind\Desktop\WorkSpace\Queue\Queue\obj\Debug\Queue.xml
+C:\Users\mastermind\Desktop\WorkSpace\Queue\Queue\obj\Debug\Queue.pdb
