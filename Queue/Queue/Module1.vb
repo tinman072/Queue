@@ -1,11 +1,11 @@
 ﻿Module Module1
 
-    Public Structure qNode
-        Dim DATA As String
-        Dim PTR As String
-    End Structure
-
     Public Structure Queue
+
+        Public Structure qNode
+            Dim DATA As String
+            Dim PTR As String
+        End Structure
 
         Const nullPTR = -1
 
@@ -16,21 +16,21 @@
 
         Dim q() As qNode
 
-        Sub initialize()
+        Sub initialize(ByVal size As Integer)
             frontPTR = nullPTR
             backPTR = nullPTR
 
             freelistPTR = 0
 
-            ReDim q(9)
+            ReDim q(size - 1)
 
-            For i = 0 To 8
+            For i = 0 To size - 2
                 q(i).DATA = ""
                 q(i).PTR = i + 1
             Next
 
-            q(9).DATA = ""
-            q(9).PTR = nullPTR
+            q(size - 1).DATA = ""
+            q(size - 1).PTR = nullPTR
 
         End Sub
 
@@ -101,7 +101,7 @@
 
         Dim q As New Queue
 
-        q.initialize()
+        q.initialize(10)
 
         q.joinQueue("A")
         q.joinQueue("B")
